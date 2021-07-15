@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListLambdaLinq
+namespace ByteBank.Modelos
 {
-    class Program
+    public interface IAutenticavel
     {
-        static void Main(string[] args)
-        {
-        }
+        bool Autenticar(string senha);
     }
 }
